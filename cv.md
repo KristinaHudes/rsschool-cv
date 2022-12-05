@@ -1,6 +1,6 @@
 # KRISTINA RUSSKIKH
 
-## FRONT-END DEVELOPER (JUNIOR/TRAINE)
+## FRONT-END DEVELOPER (JUNIOR/TRAINEE)
 
 ## Contacts  
 Location: Belgorod, Russia  
