@@ -16,9 +16,9 @@ body {
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    font-weight: 300;
-   line-height: 1.5;
-   background-color: rgb(241, 241, 241);
+   line-height: 1.7;
    color: #000;
+   background-color: rgb(241, 241, 241);
 }
 
 .header,
@@ -33,6 +33,7 @@ body {
 
 .nav-list {
    display: flex;
+   flex-wrap: nowrap;
    justify-content: flex-end;
    align-items: center;
    list-style: none;
@@ -51,4 +52,107 @@ body {
 .nav-link:hover {
    cursor: pointer;
    text-shadow: 0 0 15px #000, 0 0 15px #000;
+}
+
+.main-container {
+   display: flex;
+   flex-wrap: nowrap;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.sidebar,
+.main-block {
+   padding: 20px;
+   border-radius: 2px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar {
+   width: 30%;
+}
+
+.main-block {
+   width: 70%;
+   margin-left: 15px;
+}
+
+.profile-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.profile-section>img {
+   padding-top: 10px;
+   width: 50%;
+   border-radius: 50%;
+}
+
+.profile-section>h1 {
+   padding-top: 15px;
+   font-size: 24px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+
+   .nav-list {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .main-container {
+      flex-wrap: wrap;
+   }
+
+   .sidebar,
+   .main-block {
+      width: 100%;
+   }
+
+   .main-block {
+      margin: 10px 0 0 0;
+   }
+
+   .profile-section>img {
+      width: 40%;
+   }
+}
+
+.section-title {
+   padding-top: 15px;
+   font-size: 18px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: rgb(0, 150, 136);
+}
+
+.contacts {
+   position: relative;
+   padding-left: 30px;
+}
+
+.contacts::before {
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 25px;
+   height: 25px;
+   background-image: url();
+}
+
+.section-skills {
+   display: flex;
+   flex-direction: column;
+}
+
+.languages-item {
+   list-style: none;
 }
