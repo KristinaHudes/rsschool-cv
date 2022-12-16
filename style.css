@@ -43,7 +43,7 @@ body {
    padding: 0 20px;
    line-height: 50px;
    text-decoration: none;
-   font-size: 15px;
+   font-size: 16px;
    color: rgb(241, 241, 241);
    text-shadow: 0 0 3px #000, 0 0 5px #000;
    transition: .3s;
@@ -172,17 +172,16 @@ body {
 }
 
 .footer-container>p {
-   font-size: 17px;
+   font-size: 18px;
    color: rgb(241, 241, 241);
    text-shadow: 0 0 3px #000, 0 0 5px #000;
+   padding-left: 10px;
 }
-
-
 
 .footer-link-text {
    padding-left: 20px;
    text-decoration: none;
-   font-size: 15px;
+   font-size: 16px;
    color: rgb(241, 241, 241);
    text-shadow: 0 0 3px #000, 0 0 5px #000;
    transition: .3s;
