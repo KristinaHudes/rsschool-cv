@@ -22,4 +22,4 @@ A FE-developer-to-be.
 + Russian - Native speaker  
 + English - Upper-Intermediate  
 + German - Elementary  
-+ Spanish - Basic
++ French - Basic
