@@ -97,6 +97,11 @@ li {
    align-items: center;
 }
 
+h3 {
+   color:transparent;
+   font-size: 0px";
+}
+
 .profile-section>img {
    padding-top: 5px;
    width: 50%;
